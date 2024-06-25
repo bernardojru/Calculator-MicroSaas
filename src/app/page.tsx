@@ -38,11 +38,6 @@ export default function Home() {
           name="description"
           content="Experimente nossa calculadora online gratuita. Fácil de usar e precisa para todas as suas necessidades de cálculo."
         />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2451935427722392"
-          crossOrigin="anonymous"
-        ></script>
       </Head>
       <div
         className={`min-w-screen min-h-screen flex flex-col items-center justify-center ${themeClasses}`}
@@ -120,4 +115,12 @@ export default function Home() {
       </div>
     </Fragment>
   );
+}
+
+{
+  /* <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2451935427722392"
+          crossOrigin="anonymous"
+        ></script> */
 }
