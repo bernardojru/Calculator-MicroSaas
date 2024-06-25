@@ -38,6 +38,10 @@ export default function Home() {
           name="description"
           content="Experimente nossa calculadora online gratuita. Fácil de usar e precisa para todas as suas necessidades de cálculo."
         />
+        <meta
+          name="keywords"
+          content="calculadora online, matemática, cálculos"
+        />
       </Head>
       <div
         className={`min-w-screen min-h-screen flex flex-col items-center justify-center ${themeClasses}`}

@@ -15,8 +15,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+          name="description"
+          content="Experimente nossa calculadora online gratuita. Fácil de usar e precisa para todas as suas necessidades de cálculo."
+        />
+        <meta
+          name="keywords"
+          content="calculadora online, matemática, cálculos, calculadora científica, calculadora financeira"
+        />
+        <meta name="author" content="bernardojru" />
+        <meta
+          name="google-site-verification"
+          content="sua_verificação_google"
+        />
+
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2451935427722392"
